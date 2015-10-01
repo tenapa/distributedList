@@ -1,0 +1,14 @@
+task 1: auth module.
+
+functions:
+1. add new user using login and password.
+2. authenticate existing user.
+3. (optional) delete user
+4. (very optional) login via facebook/vk/etc - maybe later
+
+requirements:
+1. storing data in db (preferred - sql server or in-memory like h2)
+2. no bicycles - preferred smth popular like spring-security
+3. simple api in one class and main class as test client
+4. passwords stored as hashes
+5. (optional, but would be nice) provide easy way to change hash-function
